@@ -1,0 +1,18 @@
+.container.grow1 .item{
+    width: 25%;
+}
+.container.grow1 .item:nth-child(3) {
+    flex-shrink: 1;
+}
+.container.grow1 .item:nth-child(2) {
+    flex-shrink:2;
+}
+.container.grow2 .item {
+    flex-grow:0;
+}
+.container.grow3 .item:first-of-type{
+    flex-grow: 2;
+}
+.container.grow3 .item:last-of-type {
+    flex-grow:1;
+}

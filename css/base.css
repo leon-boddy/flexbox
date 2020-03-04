@@ -1,0 +1,18 @@
+body {
+    background: lightblue;
+}
+.container, .inline-container {
+    background-color: white;
+    margin: 2rem 10%;
+}
+.item{
+    border: 1px solid salmon;
+    background: slateblue;
+    padding: 1rem;
+}
+.container {
+    display: flex;
+}
+.inline-container {
+    display: inline-flex;
+}
